@@ -5,11 +5,11 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class SortingMoreToLess {
-    public static List<Object> sortLongToShort(List<Object> list) {
+    public static List<String> sortLongToShort(List<Object> list) {
         return list.stream()
-                .filter(e -> e instanceof String)
-                .map(e -> (String) e)
-                .sorted(Comparator.comparing(String::length).reversed())
+                .filter(String.class::isInstance)
+                .map(String.class::cast)
+                .sorted(Comparator.comparingInt(String::length).reversed())
                 .collect(Collectors.toList());
     }
 }
