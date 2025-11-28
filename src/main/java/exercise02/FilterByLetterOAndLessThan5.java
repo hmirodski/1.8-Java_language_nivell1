@@ -7,7 +7,7 @@ public class FilterByLetterOAndLessThan5 {
     public List<String> filter(List<String> list) {
         return list.stream()
                 .filter(w -> w.contains("o"))
-                .filter(x -> x.length() < 5)
+                .filter(x -> x.length() > 5)
                 .collect(Collectors.toList());
 
     }
