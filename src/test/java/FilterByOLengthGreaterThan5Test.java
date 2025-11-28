@@ -8,15 +8,21 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class FilterByOLengthGreaterThan5Test {
-    @Test
-    void shouldFilterByOAndLengthGreaterThan5() {
-        List<String> words = Arrays.asList(
-                "car", "motorcycle", "computer", "operation", "dog", "language"
-        );
-        List<String> expected = Arrays.asList("motorcycle", "computer", "operation", "language");
-        List<String> actual = FilterByLetterOAndMoreThan5.filter(words);
 
-        assertEquals(expected.size(), actual.size());
-        assertTrue(actual.containsAll(expected) && expected.containsAll(actual));
+    @Test
+    void shouldFilterWordsWithOAndLengthGreaterThan5() {
+        List<String> input = Arrays.asList(
+                "house",
+                "octopus",
+                "hello",
+                "Barcelona",
+                "world",
+                "dictionary"
+        );
+
+        List<String> filtered = FilterByLetterOAndMoreThan5.filter(input);
+
+        assertEquals(Arrays.asList("octopus", "Barcelona", "dictionary"), filtered);
     }
+
 }

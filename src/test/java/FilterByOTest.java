@@ -10,14 +10,18 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class FilterByOTest {
 
     @Test
-    void shouldReturnCorrectList() {
-        List<String> expected = Arrays.asList("apple", "google", "microsoft");
-        FilterByLetterO filterer = new FilterByLetterO();
-        List<String> actual = filterer.filter(expected);
+    void shouldFilterWordsContainingLetterO() {
+        List<String> input = Arrays.asList(
+                "Hola",
+                "Test",
+                "octuber",
+                "Java",
+                "World",
+                "hmm"
+        );
 
-        assertEquals(expected.size(), actual.size());
+        List<String> filtered = FilterByLetterO.filter(input);
 
-        assertEquals(expected.size(), actual.size());
-        assertTrue(actual.containsAll(expected) && expected.containsAll(actual));
+        assertEquals(Arrays.asList("Hola", "octuber", "World"), filtered);
     }
 }
