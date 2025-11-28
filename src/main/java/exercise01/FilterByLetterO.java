@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 public class FilterByLetterO {
 
-    public List<String> filter(List<String>list){
+    public static List<String> filter(List<String>list){
         return list.stream()
                 .filter(w -> w.contains("o"))
                 .collect(Collectors.toList());

@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81af89a6-fba7-499e-b6f4-2462a38aed11" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercise06/SortingLessToMoreChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercise07/SortingMoreToLess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercise08/ReverserInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FilterByOReturnsCorrectList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercise01/FilterByLetterO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise01/FilterByLetterO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1764239973425</updated>
       <workItem from="1764239974416" duration="4377000" />
-      <workItem from="1764320605918" duration="3156000" />
+      <workItem from="1764320605918" duration="4376000" />
     </task>
     <servers />
   </component>
