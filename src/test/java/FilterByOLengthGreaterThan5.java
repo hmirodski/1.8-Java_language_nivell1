@@ -18,4 +18,5 @@ public class FilterByOLengthGreaterThan5 {
 
         assertEquals(expected.size(), actual.size());
         assertTrue(actual.containsAll(expected) && expected.containsAll(actual));
+    }
 }
