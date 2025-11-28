@@ -2,7 +2,8 @@
 
 ## 📄 Descripción
 
-Este proyecto contiene la implementación de ocho ejercicios del Sprint 1.08 - Lambdas en Java, utilizando la API de Lambdas y Streams de Java 8+.
+Este proyecto contiene la implementación de ocho ejercicios del Sprint 1.08 - Lambdas en Java, utilizando la API de
+Lambdas y Streams de Java 8+.
 
 ### Ejercicio 1: Filtrar strings con letra 'o'
 
@@ -150,7 +151,8 @@ O desde IntelliJ:
 
 ## 🌐 Despliegue
 
-Este proyecto es una aplicación de consola local y no requiere despliegue en un servidor. Está diseñado para ejecutarse en un entorno local con fines educativos.
+Este proyecto es una aplicación de consola local y no requiere despliegue en un servidor. Está diseñado para ejecutarse
+en un entorno local con fines educativos.
 
 ---
 
