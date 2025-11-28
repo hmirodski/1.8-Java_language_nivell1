@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81af89a6-fba7-499e-b6f4-2462a38aed11" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercise03/PrintWithLambda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercise05/PiValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercise02/FilterByLetterOAndLessThan5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise02/FilterByLetterOAndLessThan5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1764239973425</updated>
       <workItem from="1764239974416" duration="4377000" />
-      <workItem from="1764320605918" duration="1590000" />
+      <workItem from="1764320605918" duration="2168000" />
     </task>
     <servers />
   </component>
