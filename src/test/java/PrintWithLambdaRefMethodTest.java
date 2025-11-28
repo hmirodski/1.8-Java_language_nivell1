@@ -9,7 +9,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class PrintWithLambdaRefMethod {
+public class PrintWithLambdaRefMethodTest {
 
     private static final List<String> MONTHS = Arrays.asList(
             "January", "February", "March", "April", "May", "June",

@@ -7,7 +7,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class FilterByOLengthGreaterThan5 {
+public class FilterByOLengthGreaterThan5Test {
     @Test
     void shouldFilterByOAndLengthGreaterThan5() {
         List<String> words = Arrays.asList(
